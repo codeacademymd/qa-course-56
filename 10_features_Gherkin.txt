@@ -1,0 +1,126 @@
+Feature 1: Cross-Browser Compatibility
+
+  Scenario: User accesses the application on different browsers
+
+    Given the application is accessible
+    When the user opens the application on Chrome
+    Then the application should function correctly
+    And there should be no visual discrepancies
+
+    When the user opens the application on Firefox
+    Then the application should function correctly
+    And there should be no visual discrepancies
+
+    When the user opens the application on Safari
+    Then the application should function correctly
+    And there should be no visual discrepancies
+
+
+Feature 2: Multi-Language Support
+
+  Scenario: Verify the application works correctly in different languages
+
+    Given the user is on the utest.com website
+    When the user changes the language to "French"
+    Then the website content should be displayed in French
+
+    When the user navigates to a specific page
+    Then the page content should be translated into the selected language
+
+    When the user changes the language to "Spanish"
+    Then the website content should be displayed in Spanish
+
+    When the user interacts with various elements on the site
+    Then the text, buttons, and messages should be in the selected language
+
+
+
+Feature 3: Cross-Platform Testing
+
+  Scenario: Verify utest.com functionality across different platforms
+
+    Given the user is on the utest.com website
+    When the user accesses the website from a Windows PC
+    Then the website should display and function correctly
+
+    When the user interacts with various elements on the site
+    Then buttons, links, and other UI elements should respond as expected on a Windows PC
+
+   
+
+  Feature 4: Usability Testing on utest.com
+
+  Scenario: Evaluate the user interface and interactions on utest.com
+
+    Given the user is on the utest.com website
+    When the user navigates to the homepage
+    Then the homepage should have a clear and intuitive layout
+
+    When the user attempts to sign in to their account
+    Then the sign-in process should be straightforward and user-friendly
+
+    
+Feature 5: Security Testing on utest.com
+
+  Scenario: Verify security measures on utest.com
+
+    Given the user is on the utest.com login page
+    When the user tries to log in with invalid credentials
+    Then the application should display a generic error message, avoiding information disclosure
+
+
+Feature 6: uTest Academy Lessons
+
+  Scenario: User explores available lessons
+
+    Given the user is on the uTest Academy lessons page
+    When the user views the list of available lessons
+    Then the lessons should be categorized 
+
+
+
+Feature 7: uTest.com Payments
+
+  Scenario: User initiates a payment
+
+    Given the user is on the uTest.com platform
+    When the user selects a service requiring payment
+    Then the user should be prompted to initiate the payment process
+
+
+Feature 8: Community Forum on uTest.com
+
+  Scenario: User interacts with the community forum
+
+    Given the user is on the uTest.com community forum
+    When the user navigates to a specific category
+    Then the user should see a list of relevant topics
+
+    Given the user is viewing a topic
+    When the user reads a post
+    Then the user should see details like the post content, author
+
+
+Feature 9: My Activity on uTest.com
+
+  Scenario: User reviews their recent activity
+
+    Given the user is logged into uTest.com
+    When the user navigates to the "My Activity" section
+    Then the user should see a summary of their recent activities
+
+Feature 10: Projects Board on uTest.com
+
+Scenario: User adds tasks to a project
+
+    Given the user is on the Projects Board
+    When the user clicks on a specific project
+    Then the user should see the project details
+
+
+
+
+
+
+
+
