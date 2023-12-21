@@ -1,0 +1,360 @@
+1.
+Feature: Bug Reporting Tool
+
+  Scenario: Reporting a Bug on www.uTest.com
+
+    Given the user is logged in to their uTest account
+    When the user navigates to the Bug Reporting Tool section
+    And selects the project they are testing
+    And chooses to report a new bug
+    And provides a detailed description of the bug
+    And attaches relevant screenshots or files
+    And sets the bug severity to "High"
+    And submits the bug report
+
+    Then the bug report should be successfully submitted
+    And the user should receive a confirmation message
+    And the bug should be visible in the bug tracking system
+    And the bug status should be marked as "Submitted"
+
+2.
+
+Feature: Test Cycle Opportunities on www.uTest.com
+
+  Scenario: Applying for a Test Cycle Opportunity
+
+    Given the user is logged in to their uTest account
+    And navigates to the Test Cycle Opportunities section
+    And reviews the available test cycles
+
+    When the user finds a suitable test cycle
+    And clicks on the details to view the requirements
+    And confirms they meet the criteria
+
+    Then the user applies for the test cycle
+    And provides any required information or qualifications
+    And submits the application
+
+    And the system should acknowledge the application
+    And the user should receive a confirmation email
+    And the applied test cycle should be listed in the user's dashboard
+    And the status of the application should be "Pending" initially
+
+3.
+
+Feature: Diverse Testing Projects on www.uTest.com
+
+  Scenario: Participating in a Diverse Testing Project
+
+    Given the user is logged in to their uTest account
+    And navigates to the Diverse Testing Projects section
+
+    When the user selects a testing project of interest
+    And reviews the project details, including the testing requirements
+
+    Then the user decides to participate in the project
+    And clicks on the "Apply" button
+
+    And the system should acknowledge the user's application
+    And the user's dashboard should display the applied project
+    And the status of the application should be "Pending" initially
+
+    When the project application is reviewed by the project manager
+    And the user's application is accepted
+
+    Then the user's dashboard should reflect the updated status
+    And the user should receive a notification about their acceptance
+
+    When the user completes the assigned testing tasks
+    And submits their findings and feedback
+
+    Then the project manager should be able to review the user's contributions
+
+4.
+Feature: Training Resources on www.uTest.com
+
+  Scenario: Accessing Training Resources
+
+    Given the user is logged in to their uTest account
+    And navigates to the Training Resources section
+
+    When the user explores the available training materials
+    And clicks on a specific training module of interest
+
+    Then the user should be directed to the training content
+    And the content should be presented in a clear and understandable format
+
+    When the user completes the training module
+    And takes any associated quizzes or assessments
+
+    Then the system should record the user's progress
+    And update the user's training history or profile
+
+    When the user returns to the Training Resources section
+    And views their training history
+
+    Then the completed training module should be marked as "Completed"
+    And the user's overall training progress should be updated
+
+5.
+Feature: Community Forums on www.uTest.com
+
+  Scenario: Participating in Community Forums
+
+    Given the user is logged in to their uTest account
+    And navigates to the Community Forums section
+
+    When the user explores the available forums and topics
+    And selects a specific forum of interest
+
+    Then the user can view existing threads and discussions
+    And can click on a thread to view its content
+
+    When the user decides to participate in a discussion
+    And clicks on the "Reply" button
+
+    Then the user can enter their reply in the text editor
+    And attach any relevant files or images if needed
+
+    When the user submits their reply
+
+    Then the reply should be posted in the discussion thread
+    And the user should receive a notification of their post
+    And the user's post count or reputation points should be updated
+
+    When the user wants to start a new discussion
+    And clicks on the "New Topic" button
+
+    Then the user can enter the topic title and content
+    And choose relevant tags or categories
+
+    When the user submits the new topic
+
+    Then the new topic should be posted in the selected forum
+    And other users should be able to view and reply to the new topic
+    And the user's post count or reputation points should be updated
+
+    When the user receives a notification of a reply to their post
+
+    Then the user should be able to navigate directly to the relevant discussion
+    And view the new reply to their post
+
+6.
+Feature: Compensation and Rewards on www.uTest.com
+
+  Scenario: Earning Compensation for Testing
+
+    Given the user is logged in to their uTest account
+    And has completed a testing project
+
+    When the user navigates to the Compensation and Rewards section
+    And reviews the compensation details for the completed project
+
+    Then the user should see a breakdown of the compensation components
+    And the system should accurately calculate the earned amount
+
+    When the compensation is credited to the user's account
+
+    Then the user's account balance should be updated
+    And the user should receive a notification of the credited amount
+    And the compensation details should be visible in the user's transaction history
+
+    When the user refers a friend to uTest
+
+    Then the user should receive a referral bonus if their friend signs up and completes a project
+    And the referral bonus should be reflected in the user's account
+
+    When the user achieves a milestone or recognition
+
+    Then the user should receive a reward or recognition badge
+    And the reward or badge should be visible in the user's profile
+
+    When the user decides to redeem their earnings
+
+    Then the user can choose a redemption method (e.g., gift cards, PayPal)
+    And the system should process the redemption request accurately
+
+    When the user receives the redeemed rewards
+
+    Then the user should be notified of the successful redemption
+    And the redeemed rewards should be reflected in the user's transaction history
+
+7.
+Feature: Compensation and Rewards on www.uTest.com
+
+  Scenario: Tester Receives Compensation and Rewards
+
+    Given the user is a registered tester on uTest
+    And has successfully completed a testing project
+
+    When the user navigates to the Compensation and Rewards section
+    And selects the completed project from their dashboard
+
+    Then the user should see detailed information about the compensation
+    And the compensation amount should be accurately calculated based on the project's terms
+
+    When the compensation is credited to the user's account
+
+    Then the user's account balance should be updated
+    And the user should receive a notification of the credited amount
+    And the compensation details should be visible in the user's transaction history
+
+    When the user refers a friend to uTest
+
+    Then the user should receive a referral bonus if their friend registers and completes a project
+    And the referral bonus amount should be credited to the user's account
+
+    When the user achieves a milestone or earns a recognition badge
+
+    Then the user's profile should be updated to reflect the achieved milestone or badge
+    And the user should receive a notification about the achievement
+
+    When the user decides to redeem their earnings
+
+    Then the user can choose a redemption method (e.g., gift cards, PayPal)
+    And the system should process the redemption request accurately
+
+    When the user receives the redeemed rewards
+
+    Then the user should be notified of the successful redemption
+    And the redeemed rewards should be reflected in the user's transaction history
+
+8.
+  Feature: Rating and Reputation System on www.uTest.com
+
+  Scenario: Tester Receives and Maintains Rating
+
+    Given the user is a registered tester on uTest
+    And has completed multiple testing projects
+
+    When the user navigates to their profile or dashboard
+
+    Then the user should see their current rating and reputation
+    And the rating should be based on their performance in completed projects
+
+    When the user receives positive feedback from project managers
+
+    Then the user's rating should increase
+    And the positive feedback comments should be visible in the user's profile
+
+    When the user receives negative feedback from project managers
+
+    Then the user's rating should decrease
+    And the negative feedback comments should be visible in the user's profile
+
+    When the user consistently maintains a high rating
+
+    Then the user should be eligible for premium testing opportunities
+    And the user's profile should display badges or labels indicating their high reputation
+
+    When the user's rating falls below a certain threshold
+
+    Then the user should receive a notification about the rating drop
+    And the user may have limited access to certain testing projects
+
+    When the user actively participates in community forums and discussions
+
+    Then the user's engagement may positively contribute to their reputation
+    And the user should receive recognition for their contributions
+
+    When the user views their detailed rating history
+
+    Then the user should see a breakdown of ratings received for each project
+    And the user should be able to understand how their rating is calculated
+
+9.
+  Feature: Flexible Work Opportunities on www.uTest.com
+
+  Scenario: Tester Chooses and Participates in a Flexible Work Opportunity
+
+    Given the user is a registered tester on uTest
+    And navigates to the Test Cycle Opportunities section
+
+    When the user reviews the available test cycles
+
+    Then the user should see a variety of testing projects with different requirements
+    And the user should be able to filter or search for projects based on their preferences
+
+    When the user identifies a flexible work opportunity
+
+    Then the user clicks on the project details to view the requirements
+    And the user ensures that the project aligns with their skills and availability
+
+    When the user decides to participate in the flexible work opportunity
+
+    Then the user clicks on the "Apply" button
+    And the user provides any required information or qualifications
+    And submits the application
+
+    When the user's application is accepted
+
+    Then the user's dashboard should display the accepted project
+    And the user should receive a notification of acceptance
+
+    When the user completes the assigned testing tasks
+
+    Then the user submits their findings and feedback within the specified timeframe
+    And the user ensures that the flexible work opportunity accommodates their schedule
+
+    When the user navigates to their dashboard after project completion
+
+    Then the user should see the completed project in their history
+    And the user's account should be credited with the appropriate compensation
+
+    When the user actively communicates any challenges or changes in availability
+
+    Then the user ensures that the platform allows for flexible adjustments
+    And the user's profile accurately reflects their availability status
+
+    When the user explores other flexible work opportunities
+
+    Then the user repeats the process, selecting projects that match their preferences
+    And the user adapts their participation based on their schedule and interests
+
+10.
+    Feature: Communication Tools on www.uTest.com
+
+  Scenario: Tester Communicates with Project Team
+
+    Given the user is a registered tester on uTest
+    And has accepted a testing project
+
+    When the user navigates to the project details or dashboard
+
+    Then the user should see communication tools available for the project
+    And the user should have options to send messages or queries to the project team
+
+    When the user has a question or needs clarification
+
+    Then the user clicks on the "Contact Project Team" button
+    And the user enters their message or question in the provided text editor
+    And the user attaches any relevant files or screenshots
+
+    When the user sends the message
+
+    Then the project team should receive a notification of the new message
+    And the project team should be able to view and respond to the message
+
+    When the project team responds to the user's message
+
+    Then the user should receive a notification of the response
+    And the user should be able to view the response in the communication thread
+
+    When the user wants to engage with other testers
+
+    Then the user navigates to the Community Forums or a designated discussion area
+
+    When the user participates in a forum thread or discussion
+
+    Then the user should have the option to reply to other testers
+    And the user's responses should be visible in the discussion thread
+
+    When the user receives a direct message from another tester
+
+    Then the user should receive a notification of the new message
+    And the user should be able to view and respond to the direct message
+
+    When the user checks their communication history
+
+    Then the user should see a log of all messages, replies, and direct messages
+    And the user should be able to filter or search for specific communications
