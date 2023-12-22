@@ -1,4 +1,3 @@
-"Sa modificat Textul"
 Feature: Account Creation-Sign UP
 Scenario1: User successfully creates a new account
     Given:The user is on the registration page
