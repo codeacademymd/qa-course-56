@@ -1,0 +1,72 @@
+Feature 1: Accessing registration form
+Scenario: User can start the registration process
+Given User is on "www.uTest.com" Homepage
+When User clicks the "Become an uTester" button
+Then User should be redirected to the "Sign up" page
+And User should type in the information into the "Step 1: Tell us about yourself" form
+
+Feature 2: Logging in without registering
+Scenario: User cannot login into "www.uTest.com" without registering
+Given User is on "www.uTest.com" Homepage
+When User selects the "Log in" option
+And types in the "Email Address" placeholder the personal email "qwerty@gmail.com"
+And types in the "Password" placeholder personal password "12354"
+Then User should see the "Invalid username or password." message
+And User should not be redirected to another webpage
+
+Feature 3: Accessing Projects details
+Scenario: User should be able to access any projects available from Denmark without registering/logging in
+Given User is on "www.uTest.com" Homepage
+When User selects the "Projects" option
+And selects "Denmark" option from "Country" drop-down menu
+And User is redirected to the "All" projects list from Denmark
+And User clicks on any project presented on the list
+Then User should see all the details from the selected project
+
+Feature 4: Accessing the "About Us" page
+Scenario: User should be able to access "About Us" page without registering
+Given User is on "www.uTest.com" Homepage
+When User selects the "About Us" option
+Then User should be redirected to the "About Us" page of "www.uTest.com"
+
+Feature 5: Accessing any FAQ answers qithout registering
+Scenario: User should be able to access any FAQ answer without registering
+Given User is on "www.uTest.com" Homepage
+When User selects the "About Us" option
+And User clicks on any of "Frequently Asked Questions"
+Then User should see the answer to the FAQ question selected
+
+Feature 6: Accessing "Help & Support" 
+Scenario: User should be able to access any article from "Help & Support" knowledge base without registering/logging in
+Given User is on "www.uTest.com" Homepage
+When User selects the "Help & Support" option
+And User is redirected to the "Welcome to Tester Support!" webpage
+And User selects an article from Knowledge base
+Then User should be redirected to the article page
+
+Feature 7: Accessing "uTest Guidelines"
+Scenario: User should be able to access "uTest Guidelines" without registering/logging in
+Given User is on "www.uTest.com" Homepage
+When User selects the "Help & Support"
+Then User should be redirected to the "Welcome to Tester Support!" webpage
+
+Feature 8: Accessing "Privacy Policy"
+Scenario: User should be able to access "Privacy Policy" without registering/logging in
+Given User is on "www.uTest.com" Homepage
+When User selects the "Privacy Policy" option
+Then User should be redirected to the "Privacy Policy" webpage
+
+Feature 9: Video playing on "Why uTest" page
+Scenario: User play the "Why uTest" video
+Given User is on "www.uTest.com" Homepage
+When User selects the "Why uTest" option
+And User is redirected to the "Why uTest" webpage
+And User presses the "Play" button from the center of video
+Then the video should start playing
+
+Feature 10: Following uTest on "X"
+Scenario: User play the "Why uTest" video
+Given User is on "www.uTest.com" Homepage
+When User clicks on Social Media "X" icon at the bottom of the Homepage
+Then User should be redirected to the uTest "X" page
+And the follow uTest on "X" options should be displayed
