@@ -1,0 +1,41 @@
+Feature: Signing in
+Scenario 1: The user can not sign in
+Given: The user in on the sigging in page
+When : The user inserts random email
+  And then the user inserts random password
+Then : The user should not be able to log in 
+  And the user will see a message saying he either used and invalid username pr password
+
+
+
+Feature: Filtering projects
+Scenario 1 : The user can select projects by country
+Given: The user in on the projects board page
+When : The user chooses "moldova" as the country
+  And the user presses "enter"
+Then : The user should be able to see the projects available in Moldova
+
+Feature: Compatibility
+Scenario 1: The user can acces related social platforms
+Given:The user is on the main page
+When : The user presses the "instagram" icon
+Then : The user is taken to a new tab on the instagram page of the given webpage
+
+Feature:Content accesability
+Scenario 1: The user is able to acces the videos
+Given: The user is on the "why utest" page
+When : The user presses play on the video
+Then : The user should be able to see the video play
+
+Feature:Log in
+Scenario 1:The user can not be younger than 18 years in oorder to join
+Given:The user is on the registration page
+When: The user inserts the name
+  And the user inserts the last name
+  And the user inserts the email adress
+  And the user chooses the month
+  And the user chooses the day
+Then :The user should not be able to choose a year after 2005
+  
+
+     
