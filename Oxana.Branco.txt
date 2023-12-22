@@ -1,0 +1,119 @@
+"Sa modificat Textul"
+Feature: Account Creation-Sign UP
+Scenario1: User successfully creates a new account
+    Given:The user is on the registration page
+    When:The user enters valid registration information
+    And:Submits the registration form
+    Then:The user should see a confirmation message
+
+Scenario2:User can't successfully create a new account with nonexistent email
+  Given: The user is on the registration page
+  When:The user enters a nonexistent email
+  Then:The user should not be able to activate the account
+  And:The user should see an error message indicating the email is not recognized
+
+Feature 2: Log In
+Scenario1:User successfully logs in 
+ Given:The user is on the log in page
+ When:User enters valid login and password
+ Then:The user should login successufully
+
+Scenario2:User can't successfully login with invalid user name
+ Given:The user is on the log in page
+ When:User enters invalid login and valid password
+ And:User presses "Sign In"
+ Then:The user should receives the  message  "Invalid username or password"
+Scenario3:User can't successfully login with invalid password
+  Given:The user is on the log in page
+  When:User enters invalid password  and valid login 
+  And:User presses "Sign In"
+  Then:The user should receives the  message  "Your login attempt timed out. Login will start from the beginning"
+
+Feature 3:Tester Profile
+Scenario1:User can add succesfully a  profile photo
+Given:The  user is on the personal page
+And: The user selects  the "Upload"
+And: The user choses a photo from pictures
+And:The user clicks "Open"
+When:The user completes all personal information
+And:Clicks "save"
+Then:The user should succsesufully  upload the photo profile
+
+Scenario2:User cant add succesfully a  profile photo
+Given:The  user is on the personal page
+And:The user selects  the "Upload"
+And:The user choses a ""Undetectable" photo from pictures
+And:The user clicks "Open"
+When:The user completes all personal information
+And :Clicks "save"
+Then the user should receive the message "Ann exception occured"
+
+Feature 4:Payment testing
+Scenario1:User can succesfully ad information about payment methode
+Given:The user is on the tester profile page
+When:User at the "W-Wallets" check  'I don't have any'
+And:At the "Mobile Wallets" check ' I don't have any'
+And:At the "Alternate Payments" click at the  select 
+And :from list box select "PayPal credit"
+And:at the "Are you willing to participate in Passive Payment Testing?" check at "Yes"
+And :At Bank Account check at " I don't have a bank account"
+And:At "Credit & Debit Cards" check at  'I don't have a bank account"
+And:User click at de  Save button
+Then:The payment testing should by complete for user profile
+
+Feature 5:Sign Out
+Scenario1:User can succesufully Sign Out
+Given:The user is at the personal page
+When:The user scrolls down 
+And:The  user click at "Sign Out"
+Then:The user should be Signed out from personal page
+
+Feature 6:Post a message in the feed
+Scenario1:User can succesufully post a message on the feed
+Given:User is on the community page
+And:locates the message field
+When:User writes  a message "Hello World" in the field
+And:The  user clicks "Share status"
+Then:The message should be succesufully  posted in the feed
+
+Feature 7:Edit message in the feed
+Scenario1:User successfully edits their own post
+Given:The user is on the feed page
+And:User locates the "Edit" pencil icon
+When:User clicks at the  "Edit"pencil icon
+And:User navigate to "Edit Status"
+And:User clicks on "Edit Status"
+And:User makes modifications
+And:User clicks  on the "Save" button
+Then:The message should be successfully edited and updated in the feed
+
+Feature 8:Write and post a comment
+Scenario1:User can succesufully write and post a comment under feed message
+Given:User is on the Feed page
+When:User Locates the " Add Comment" section
+And:User Clicks at the"Add Comment" button
+And:A text field for the comment is displayed
+And:The user writes a comment  message
+And:The User clicks at the "post" button
+Then:The comment should be succesufully posted  on the feed page
+
+Feature 9:Create a New Topic
+Scenario1:User can succesufully create a New Topic with information
+Given:User is on the forum page
+And:User locates the button "Create a new topic"
+When:User clicks at on the "New Topic" button
+And:The User  selects a category from drop-down list
+And:The User writes "Discussion Title" in the  text field
+And: The User writes "Topic Text" in the text field
+And:The user  click at the"Create" button
+Then:The New Topic should be succesufully posted 
+
+Feature 10:Search Field
+Scenario1:User can succsesufully search information at the search field
+Given:The user is on the "Home page"
+And:User locates the search field
+When:The user clicks in the search field
+And:User enters the search tags
+And:User clicks at the "enter"button
+Then:  Then the information related to the tags should be successfully displayed
+
