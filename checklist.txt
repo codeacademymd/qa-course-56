@@ -1,0 +1,67 @@
+masina de spalat smart
+1.check conectarea la wi fi 
+2.check elmentele in aplicatie 
+3.check sursa de alimentare 
+4.check daca ii inchisa usa
+5.check daca nu este apa in toba 
+6.check daca nu este scurgere 
+7.check  daca se poate seta nr de rotatii 
+8.check tipul de haine puse in masina 
+9.check daca versiunea este updatata 
+10.check daca face auto-update
+11.check daca in caz de error vine ca mesaj la telefon sau alerta
+12.check daca functioneaza time
+13.check si tip de solutii este nevoie pentru spalare
+14.check daca este conectata la apa si canalizare
+15.check daca este silent mode 
+16.check daca este sleeping mode 
+17.check daca este nevoie de curatire 
+18.check daca este regim eco
+19.check daca are reminder in caz ca ai uitat hainele in masina de spalat
+20.check daca arata cit ii de incarcata masina 
+
+Conditioner smart
+
+1.check conectarea la wi fi 
+2.check elementele in aplicatie 
+3.check sursa de alimentare 
+4.check daca arata temperatura 
+5.check daca se seteaza temperatura
+6.check daca se seteaza regimul incalzire sau racire
+7.check simte prezenta in camera 
+8.check daca se poate stine sau aprinde din aplicatie 
+9.check daca versiunea este updatata 
+10.check daca face auto-update
+11.check daca in caz de error vine ca mesaj la telefon sau alerta
+12.check daca functioneaza timer-ul
+13.check daca este nevoie de curatire 
+14.check daca poti schimba locul racirii aerului
+15.check daca este silent mode 
+16.check daca este sleeping mode 
+17.check daca este regim eco
+18.check puterea de incalizrea saur racire (fan) 
+19.check daca poatea usca aerul in incapere 
+20.check daca poti programa datile cind sa lucreze 
+
+uscator de rufe smart
+
+1.check conectarea la wi fi 
+2.check elementele in aplicatie 
+3.check sursa de alimentare 
+4.check daca arata temperatura 
+5.check daca se seteaza temperatura
+6.check daca se seteaza regimul incalzire
+7.check simte prezenta rufelor  
+8.check daca se poate stinge sau aprinde din aplicatie 
+9.check daca versiunea este updatata 
+10.check daca face auto-update
+11.check daca in caz de error vine ca mesaj la telefon sau alerta
+12.check daca functioneaza timer-ul
+13.check daca este nevoie de curatire 
+14.check daca este regim eco 
+15.check daca este silent mode 
+16.check daca este sleeping mode 
+17.check daca poti programa datile cind sa usuce 
+18.check daca arata eroarea in caz de defect 
+19.check daca are reminder in caz ca ai uitat hainele in masina de uscat
+20.check daca are regimul de antisifonare 
