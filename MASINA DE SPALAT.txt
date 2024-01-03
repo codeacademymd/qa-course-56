@@ -1,0 +1,19 @@
+1.Ceck if:Conectarea la screen
+2Ceck if:LA aprindere se aude  semnalul distinctiv
+3.Check if:Nivelul de intensitate a spalarii
+4.Check if:Nivelul de prespalare
+Ceck if:Sleectarea Tipul de spalare
+Ceck if:Selectare zgomotului
+Ceck if:Programarea timpului de spalare
+Ceck if:Clatire cu sau fara balsam
+CCeck if:La finisare spalarii semnalul este prezent
+Ceck if:Usa nu este inchisa corect, apare semnalul pe screen
+Ceck if:Setarea tipului de scurgere 
+Ceck if:Setarea nivelului de clatire
+Ceck if:SE opreste din functiune daca nu este sursa de apa
+Ceck if:Se opreste din functiune daca presiunea apei este joasa
+Ceck if:Se seteaza temperatura apei
+Ceck if:Se  seteaza 90C pu  categoria texilor  sensibile
+Ceck if:Se seteaza cantitatea de produse 
+Ceck if:Se cintareste si se seteaza timpul corect de spalare
+Ceck if:Apaare semnal  de alarma daca este supra incarcata
