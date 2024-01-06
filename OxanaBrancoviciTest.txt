@@ -1,0 +1,76 @@
+1.Test design techniques-tehnici de creare a testelor necesare  pentru  verificarea unui produs software de catre un QA, (deoarece testarea tuturor erorilor este imposibila).
+In  intervale scurte de timp,are  scopul de a raspunde la intrebarile:Ce funcionalitati testam/nu testam,
+ ce valori introducem/ignoram,
+ ce rezultate asteptam/ce rezultatem ignoram.
+
+2.Error guessing-Tehnica dinamica(BBT)indetificarea bug-urilor  posibilie conform experientilor anterioare a specialistului QA.
+ Exploratory testing-Tehnica de analiza a produsului cu scopul de a explora functionalitatile si  indetificarea bug-urilor a produsului soft.
+3.Boundary Values-tehnica dinamica(BBT) de indetificarea posibilior  erori ce testeaza valorile externe(limitele)  din fiecare interval(valid, invalid, pozitiv,negativ)
+  Exemplu:Voucher de 200 mdl la librarie primesc cei cu virsta intre 16-24.Valorile testate sunt:-1,1,15,16,24,25
+        Virsta pu vaccinare Covid:Se vaccineaza cei cu virsta intre 16-70.Valorile testate sunt:-1,1,15,16,70,71
+
+Equivalence Partitioning-tehnica dinamica de indetificarea posibilelor erori ce testeaza cite o valoare   din fiecare interval(valid, invalid, pozitiv,negativ)
+Exemplu:Voucher de 200 mdl la librarie primesc cei cu virsta intre 16-24.Valorile testate sunt:-5,7,20,28
+        Virsta pu vaccinare Covid:Se vaccineaza cei cu virsta intre 16-70.Valorile testate sunt:-8,6,62,79
+4.Decision table:Tehnica dinamica-BBT.Tabela de decizii cind sunt indicate anumite conditii(1 sau mai multe) si este necesara verificarea prezentei sau lipsei lor pentru a primi un anumit rezultat.
+ Exemplu:reducere de 10% primesc femeile cu virsta intre 18-35 ani si nu sunt prima  data in acest local:
+          Virsta     Gen   Frecventa vizitelor  Aplicare reducere:
+Veronica:45         F       1                  NU
+Dana    :16         F       3                  Nu
+Ion     :28         M       3                  NU
+Ira     :29         F       4                  Da-reducere 10 %
+Daria:  :70         F       2                  NU
+
+
+5.Pentru asigurarea accesului la datele si informatia legate  de proiecte sunt necesare platforme comune.Sunt securizate, permit accesul din orice colt al lumii(asigura comunicarea in echipa).Platformele comune permit accesul si vizualizarea la datele proiectului tuturor  membrilor echipei de lucru(cu toate  updatarile si detaliile necesare).In cazul cind careva din membrii echipei pleaca sau din diverse motive nu este prezent , nu are  acces ...etc alti participanti la proiect (vechi sau noi)pot sa se documenteze rapid si sa se integreze in proiect sau sa corecteze situatiile create.O platforma comuna este si o  evidenta a nivelului de lucru a fiecarui mamembru din echipa,indetificare posibilor gafe, accesul membrilor echipei ce au un ochi critic si o experienta vasta si rapid indetifica  neconcordante...
+
+
+6.Test documentation:
+    Ansamblu  tuturor documentelor ce  exista intro companie cu scopul de organizare  a lucrului pentru specialistii QA.(Test Case,Test Suite,Bug Report,Test Strategy,Test Plan,Test Checkliste)
+
+
+7.Test Checklisturile este document ce verifica prezenta sau lipsa anumitor  functionalitati/stari/caracteristici a unui produs software(A sa F).Permite verificarea in timp mai scurt a produslui,  si nu necesita scrierea detaliata si cu multi pasi comparativ cu test Case-urile).Timp restrins=economie de resurse.
+
+8.  Bug Report utest.com 
+Test Incident ID:5
+
+Summary: The "See new posts" button is not visible in the lower right corner of the www.utest.com page.
+
+Description: The "See new posts" button is not appearing in the lower right side of the www.utest.com page. This issue is observed when accessing the site in English and the browser is Mozilla Fairefox.
+
+Pre-conditions:
+- The local machine is connected to a power source or battery.
+- Internet access is available.
+- The operating system is functioning.
+- A browser  "Mozilla Fairefox" is installed.
+- An existing uTest account is logged in.
+
+Environment: www.utest.com set to English language.
+
+Steps to reproduce:
+1. Turn on the local machine.
+2. Connect to the Internet.
+3. Open the browser.
+4. Type "www.utest.com".
+5. Press the "Enter" button.
+6. Scroll down and wait for the "See new posts" button to appear (in the upper center part of the page).
+
+Expected result: The "See new posts" button is displayed in the lower right side of the page.
+
+Actual result: The "See new posts" button is not displayed in the lower right side of the page.
+
+Attachment: bug01.png
+
+Attempts to repeat: 0
+
+Name of QA: Oxana Brancovici
+Developer:  Andrei Chirtoaca
+
+Date: 6.01.24
+Time: 11:08
+	
+Severity: 2/10
+Priority: 3/10
+
+Importanta Selenium IDE:
+Modalitate de testare manuala/automata ce permite automatizarea anumitor pasi si permite verificarea volumului mare de lucru.Instrument perfect pentru regession.
