@@ -72,5 +72,5 @@ Time: 11:08
 Severity: 2/10
 Priority: 3/10
 
-Importanta Selenium IDE:
-Modalitate de testare manuala/automata ce permite automatizarea anumitor pasi si permite verificarea volumului mare de lucru.Instrument perfect pentru regession.
+9.Importanta Selenium IDE:Este o sursa deschisa, ce permite inregistrarea pasilor de testare si poate fi/este utilizata pentru testarea unei aplicatii intregi sau a unei parti de program.
+Modalitate de testare manuala/automata ce permite automatizarea anumitor pasi si permite verificarea volumului mare de lucru.Instrument perfect pentru regession.Vizulaizarea codului, updatarea codului necesar.
